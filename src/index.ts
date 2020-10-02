@@ -66,7 +66,6 @@ const fetchQuote = async (asset: string, fiat: string): Promise<IQuoteData> => {
     currency: fiat
   }).format(quote.price);
 
-
   return {localisedPrice, change}
 }
 
