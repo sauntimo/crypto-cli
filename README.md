@@ -15,7 +15,7 @@ Small command line app, written in typescript, to get crypto prices
   $ cd crypto-cli && sudo npm i -g 
   ```
 
-- get an [API key](https://coinmarketcap.com/api/).
+- get an [API key](https://coinmarketcap.com/api/) from CoinMarketCap. They're free and it only takes a minute to sign up.
 
 - add a `.env` file
   ```
