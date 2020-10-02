@@ -3,6 +3,7 @@
 import dotenv from 'dotenv';
 import chalk from 'chalk';
 import fetch from 'node-fetch';
+import path from 'path';
 
 interface ICommandArgs {
   asset: string;
@@ -15,7 +16,7 @@ interface IQuoteData {
 }
 
 // get API key from .env file into process.env
-dotenv.config();
+dotenv.config({path: path.join(__dirname + '/../.env')});
 
 const cmcBaseUrl = 'https://pro-api.coinmarketcap.com';
 
