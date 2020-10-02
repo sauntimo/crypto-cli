@@ -38,7 +38,4 @@ $ crypto btc usd
 Crypto-CLI 1 BTC = US$10,614.90 24hr change: -1.88%
 ```
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/2720466/94879426-1459e180-0458-11eb-8c5e-8ade26c9dc28.png)
