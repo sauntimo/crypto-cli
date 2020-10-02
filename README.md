@@ -7,7 +7,7 @@ Small command line app, written in typescript, to get crypto prices
 
 - clone the repo
   ```
-  $ git clone git@github.com:sauntimo/crypto-cli.git crpyto-cli
+  $ git clone git@github.com:sauntimo/crypto-cli.git crypto-cli
   ```
   
 - initialise
