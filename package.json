@@ -1,7 +1,7 @@
 {
   "name": "crypto-cli",
   "version": "0.0.1",
-  "description": "Demo CLI for gettign crypto quotes",
+  "description": "CLI for getting crypto prices",
   "main": "./lib/index.js",
   "bin": {
     "crypto": "./lib/index.js"
