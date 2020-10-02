@@ -1,0 +1,36 @@
+{
+  "name": "crypto-cli",
+  "version": "0.0.1",
+  "description": "Demo CLI for gettign crypto quotes",
+  "main": "./lib/index.js",
+  "bin": {
+    "crypto": "./lib/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "create": "npm run build && npm run test",
+    "build": "tsc -p .",
+    "test": "sudo npm i -g && crypto btc usd",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+  },
+  "author": "Tim Saunders",
+  "license": "MIT",
+  "dependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.0",
+    "@types/node-fetch": "^2.5.7",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
