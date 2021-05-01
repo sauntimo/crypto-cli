@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/clear": "^0.1.1",
-    "@types/figlet": "^1.2.1",
+    "@types/figlet": "^1.5.1",
     "@types/node-fetch": "^2.5.8",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
