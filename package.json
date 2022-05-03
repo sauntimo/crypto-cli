@@ -16,7 +16,7 @@
   "author": "Tim Saunders",
   "license": "MIT",
   "dependencies": {
-    "@types/clear": "^0.1.1",
+    "@types/clear": "^0.1.2",
     "@types/figlet": "^1.5.1",
     "@types/node-fetch": "^2.6.1",
     "chalk": "^5.0.1",
